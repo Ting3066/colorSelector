@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="colorSelector.css">
+  <title>Color Selector</title>
+  <style>
+    
+  </style>
+  
+</head>
+<body>
+  <section>
+    <div id="clr"></div>
+    <div class="btn">
+      <div>
+        <button onclick="chg('R')">R</button>
+        <input type="range" id="clrr" min="0" max="255" oninput="bar(this)">
+      </div>
+      <div>
+        <button onclick="chg('G')">G</button>
+        <input type="range" id="clrg" min="0" max="255" oninput="bar(this)">
+      </div>
+      <div>
+        <button onclick="chg('B')">B</button>
+        <input type="range" id="clrb" min="0" max="255" oninput="bar(this)">
+      </div>
+      <div>
+        <button onclick="add()">+</button>
+        <button onclick="less()">-</button>
+        <button onclick="randClr()">?</button>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="colorSelector.js"></script>
+</html>

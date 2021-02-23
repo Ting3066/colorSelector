@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  width:400px;
+  height: 450px;
+  border: 1px solid black;
+}
+
+.btn button{
+  margin: 15px 0 0 5px;
+}
+
+#clr{
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  color: white;
+  line-height: 300px;
+  font-size: 3rem;
+
+}
+
+input{
+  width: 250px;
+}
